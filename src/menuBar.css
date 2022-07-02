@@ -1,0 +1,13 @@
+.menu-bar{
+    width: 15%;
+    background-color: azure;
+}
+
+.button_wrapper{
+    text-align: center;
+}
+
+.menu-button{
+    margin-top: 10%;
+    width: 80%;
+}
