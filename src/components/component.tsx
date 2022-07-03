@@ -7,9 +7,9 @@ import '../menuBar.css';
 export const Component = () => {
     return(
         <body>
-                <header className="common-header wrapper">
+                {/* <header className="common-header wrapper">
                     都内の社交ダンス教室一覧
-                </header>
+                </header> */}
                 {/* <hr> */}
                     <div className="contents-wrapper">
                         <div className="main-contents">
