@@ -1,16 +1,14 @@
 import React from 'react';
 import {Component} from './components/component';
-import { Header } from './components/Header/header';
+import { Default } from './components/Default/default';
 
 /*style*/
 import './style.css';
-import './menuBar.css';
 
 export const App = () => {
     return (
         <div className="App">
-            <Header></Header>
-            <Component></Component>
+            <Default></Default>
         </div>
     );
 }
