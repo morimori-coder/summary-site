@@ -1,6 +1,7 @@
 .menu-bar{
     width: 15%;
     background-color: azure;
+    height: 86vh;
 }
 
 .button_wrapper{
@@ -8,6 +9,6 @@
 }
 
 .menu-button{
-    margin-top: 10%;
+    margin-top: 25%;
     width: 80%;
 }
