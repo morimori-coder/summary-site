@@ -1,9 +1,5 @@
-import React from 'react';
-
 /*style*/
 import '../style.css';
-import '../menuBar.css';
-
 export const Component = () => {
     return(
         <body>
