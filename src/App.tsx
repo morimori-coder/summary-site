@@ -8,10 +8,12 @@ import './style.css';
 export const App = () => {
     return (
         <div className="App">
+            <Default/>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/default" element={<Default />} />
+                    {/* <Route path="/" element={<Default />} /> */}
                     <Route path="/component" element={<Component />} />
+                    <Route path="/test" element={<h1>hogefuga</h1>} />
                 </Routes>
             </BrowserRouter>
         </div>
