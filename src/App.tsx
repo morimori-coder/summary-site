@@ -4,11 +4,12 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 /*style*/
 import './style.css';
+import { Header } from './components/Default/Header/header';
 
 export const App = () => {
     return (
         <div className="App">
-            <Default/>
+            <Header/>
             <BrowserRouter>
                 <Routes>
                     {/* <Route path="/" element={<Default />} /> */}

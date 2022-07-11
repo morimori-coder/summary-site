@@ -1,8 +1,11 @@
 
 export const Header = () => {
     return (
-        <header className="common-header">
+        <div>
+            <header className="common-header">
             都内の社交ダンス教室一覧
         </header>
+        <hr></hr>
+        </div>
     );
 };
