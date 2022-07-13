@@ -12,16 +12,16 @@ export const App = () => {
             <Header />
             <div className="contents-wrapper">
                 <div className="main-contents">
-                <BrowserRouter>
-                <Routes>
-                    <Route path="/component" element={<Component />} />
-                    <Route path="/test" element={<h1>hogefuga</h1>} />
-                </Routes>
-            </BrowserRouter>
+                    <BrowserRouter>
+                        <Routes>
+                            <Route path="/" element={<Component />} />
+                            <Route path="/test" element={<h1>hogefuga</h1>} />
+                        </Routes>
+                    </BrowserRouter>
                 </div>
                 <SideMenu />
             </div>
-            
+
         </div>
     );
 }
