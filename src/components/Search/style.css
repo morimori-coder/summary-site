@@ -1,0 +1,15 @@
+.label-and-textbox{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+}
+
+.search-button{
+    margin-left: 1%;
+    width: 4rem;
+}
+
+.dance-kind{
+    width: 10;
+}
