@@ -1,5 +1,5 @@
 /*style*/
-import '../../style.css';
+import './style.css';
 export const Search = () => {
     return (
         <div>
