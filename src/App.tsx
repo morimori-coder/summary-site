@@ -1,4 +1,4 @@
-import { Search } from './components/search';
+import { Search } from './components/Search/search';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 /*style*/
@@ -20,8 +20,7 @@ export const App = () => {
                     </BrowserRouter>
                 </div>
                 <SideMenu />
-            </div>
-
+             </div>
         </div>
     );
 }
