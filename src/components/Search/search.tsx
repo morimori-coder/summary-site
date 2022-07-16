@@ -31,7 +31,7 @@ export const Search = () => {
                 </thead>
                 <tbody>
                     <tr>
-                        <td><a href="http://hiuradance.com/" >樋浦ダンススクール</a></td>
+                        <td><a href="http://hiuradance.com/" >ヒウラダンススクール</a></td>
                         <td>両方</td>
                         <td>大宮</td>
                         <td>7分</td>

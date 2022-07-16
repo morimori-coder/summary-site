@@ -3,12 +3,28 @@
     background-color: azure;
     height: 86vh;
 }
-
-.button_wrapper{
-    text-align: center;
+.menu-bar hr{
+    color: #0bd;
 }
 
-.menu-button{
-    margin-top: 25%;
-    width: 80%;
+.sub-title{
+    font-size: 1.375rem;
+    padding: 0 0 0 0;
+    font-weight: normal;
+    text-align: center;
+}
+.sub-menu{
+    list-style: none;
+    padding: 0 0 0 0;
+}
+.sub-menu li{
+    border-bottom: 1px #ddd solid;
+}
+.sub-menu a{
+    color: #432;
+    padding: 10px;
+    display: block;
+}
+.sub-menu a:hover{
+    color: #0bd;
 }
