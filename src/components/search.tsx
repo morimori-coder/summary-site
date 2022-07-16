@@ -1,6 +1,6 @@
 /*style*/
 import '../style.css';
-export const Component = () => {
+export const Search = () => {
     return(
         <body>
                     <div className="contents-wrapper">
