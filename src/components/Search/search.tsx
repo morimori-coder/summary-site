@@ -5,11 +5,11 @@ export const Search = () => {
         <div>
             <div className="label-and-textbox" >
                 <label className="left-label">最寄り駅　　</label>
-                {/* <input> */}
+                <input/>
             </div>
             <div className="label-and-textbox">
                 <label className="right-label">教室名　　　</label>
-                {/* <input> */}
+                <input/>
             </div>
             <div className="label-and-textbox">
                 <label className="left-label">習える種目　</label>
