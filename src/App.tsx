@@ -1,4 +1,4 @@
-import { Component } from './components/component';
+import { Search } from './components/search';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 /*style*/
@@ -14,7 +14,7 @@ export const App = () => {
                 <div className="main-contents">
                     <BrowserRouter>
                         <Routes>
-                            <Route path="/" element={<Component />} />
+                            <Route path="/" element={<Search />} />
                             <Route path="/test" element={<h1>hogefuga</h1>} />
                         </Routes>
                     </BrowserRouter>
