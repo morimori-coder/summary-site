@@ -5,7 +5,7 @@ export const SideMenu = () => {
     return (
         <div className="menu-bar">
             <h3 className="sub-title">メニュー</h3>
-            <hr />
+            <hr className="hr-color"/>
             <ul className="sub-menu">
                 <li><a href="#">検索画面</a></li>
                 <li><a href="#">ボールルームとは</a></li>

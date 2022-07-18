@@ -3,8 +3,10 @@
     background-color: azure;
     height: 86vh;
 }
-.menu-bar hr{
-    color: #0bd;
+.hr-color{
+    height: 2px;
+    background-color: #0bd;
+    border: 0; 
 }
 
 .sub-title{
