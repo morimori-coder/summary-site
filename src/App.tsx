@@ -16,6 +16,7 @@ export const App = () => {
                         <Routes>
                             <Route path="/" element={<Search />} />
                             <Route path="/test" element={<h1>hogefuga</h1>} />
+                            <Route path='*' element={<div>404 ページが見つかりません。</div>} />
                         </Routes>
                     </div>
                     <SideMenu />
