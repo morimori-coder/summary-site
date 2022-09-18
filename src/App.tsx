@@ -2,6 +2,7 @@ import { Search } from './components/Search/search';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Header } from './components/Default/Header/header';
 import { SideMenu } from './components/Default/SideMenu/sideMenu';
+import React from 'react';
 
 /*style*/
 import './style.css';

@@ -1,6 +1,6 @@
 import { Link} from "react-router-dom";
 import "./menuBar.css"
-
+import React from "react";
 
 export const SideMenu = () => {
     return (
